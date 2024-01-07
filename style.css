@@ -4,7 +4,11 @@
 }
 
 body{
+    width: auto;
     font-family: Merriweather;
+    align-items: center;
+    height: 100vh;
+  
 }
 .header{
     margin-left: 250px;
@@ -15,7 +19,7 @@ body{
 }
 
 section{
-    width: 1320px;
+    width: auto;
     align-items: center;
     align-content: center;
 }
@@ -341,12 +345,19 @@ section{
     margin-top: 16px;
 }
 
+.portfolio-content{
+    align-items: center;
+    text-align: center;
+}
+
 .portfolio-pic {
     display: grid;
     gap: 24px;
-    width: 424px;
+    width: auto;
     height: 450px;  
     margin-top: 48px;
+    align-items: center;
+    align-content: center;
     grid-template-columns: auto auto auto;
     
 }
@@ -406,7 +417,7 @@ section{
 .portfolio-pic-1{
     display: grid;
     gap: 24px;
-    width: 424px;
+    width: auto;
     height: 450px;  
     margin-top: 24px;
     grid-template-columns: auto auto auto;
@@ -517,7 +528,7 @@ footer{
 .info-content{
     display: flex;
     color: white;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .address{
@@ -569,8 +580,10 @@ footer{
 }
 
 .copyright{
-    color: white;
+    width: auto;
     display: flex;
+    padding: 0;
     justify-content: space-between;
+    color: white;
     padding-bottom:120px ;
 }
