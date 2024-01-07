@@ -445,7 +445,7 @@ input[type="submit"]:hover{
 
 footer{
     width: auto;
-    height: 609px;
+    height: auto;
     background: #070211;
     padding-left: 140px;
     padding-right: 140px;
@@ -511,4 +511,5 @@ footer{
     color: white;
     display: flex;
     justify-content: space-between;
+    padding-bottom:120px ;
 }
