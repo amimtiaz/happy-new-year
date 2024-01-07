@@ -53,6 +53,7 @@ section{
 .deal-offers{
     margin-top: 120px;
     text-align: center;
+    transition: .20s;
 }
 
 .deal-title{
@@ -63,6 +64,7 @@ section{
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    transition: .5s;
 }
 
 .deal-meta-title{
@@ -127,6 +129,7 @@ section{
     font-weight: 400;
     line-height: 30px;
     margin-top: 24px;
+    transition: .20s;
 }
 
 .event-btn{
@@ -136,6 +139,10 @@ section{
     border: none;
     border-radius: 5px;
     margin-top: 48px;
+}
+
+.event-btn:hover{
+    background-color: #ff5722;
 }
 
 .event-time{
@@ -321,6 +328,7 @@ section{
     font-weight: 500;
     line-height: 32px;
     margin-top: 28px;
+    margin-bottom: 120px;
 }
 
 .best-portfolio-description{
@@ -340,7 +348,60 @@ section{
     height: 450px;  
     margin-top: 48px;
     grid-template-columns: auto auto auto;
+    
 }
+
+.pic-1{
+    transition: transform 0.3s ease-in-out;
+}
+
+.pic-1:hover{
+    transform: scale(1.2);
+}
+
+.pic-2{
+    transition: transform 0.3s ease-in-out;
+}
+
+.pic-2:hover{
+    transform: scale(1.2);
+}
+
+.pic-3{
+    transition: transform 0.3s ease-in-out;
+}
+
+.pic-3:hover{
+    transform: scale(1.2);
+}
+
+
+.pic-4{
+    transition: transform 0.3s ease-in-out;
+}
+
+.pic-4:hover{
+    transform: scale(1.2);
+}
+
+
+.pic-5{
+    transition: transform 0.3s ease-in-out;
+}
+
+.pic-5:hover{
+    transform: scale(1.2);
+}
+
+
+.pic-6{
+    transition: transform 0.3s ease-in-out;
+}
+
+.pic-6:hover{
+    transform: scale(1.2);
+}
+
 
 .portfolio-pic-1{
     display: grid;
