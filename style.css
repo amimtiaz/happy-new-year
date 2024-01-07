@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Merriweather;
+}
+.header{
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 50px;
+    position: relative;
+    
+}
+
+section{
+    width: 1320px;
+    align-items: center;
+    align-content: center;
+}
+
+.banner{
+    width: auto;
+    height: 600px;
+    background-image: url(resources/banner_image.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-title{
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.banner-meta-title{
+    color: #FFF;
+    text-align: center;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px;
+    text-align: center;
+    
+}
+
+.deal-offers{
+    margin-top: 120px;
+    text-align: center;
+}
+
+.deal-title{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.deal-meta-title{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 48px;
+}
+
+.deal-cat-title{
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 16px;
+}
+
+.new-year-pic{
+    width: 802.9px;
+    height: 500px;
+    margin-top: 48px; 
+    margin-bottom: 120px;
+}
+
+.event-banner{
+    width: auto;
+    height: 600px;
+    background-image: url(resources/Vector.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-bottom: 120px;
+    padding-left: 126px;
+}
+
+.event-title{
+    color: #FFF;
+    width: 642px;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+}
+
+.event-description{
+    width: 697px;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 24px;
+}
+
+.event-btn{
+    color: white;
+    background-color: #F00;
+    padding: 16px 35px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 48px;
+}
+
+.event-time{
+    width: auto;
+    height: 600px;
+    text-align: center;
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border-radius: 20px;
+    margin-bottom: 120px;
+}
+
+.event-title-place{
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+
+.red-text{
+    color: #F00;
+}
+
+.event-title-date{
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+
+.event-title-time{
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
