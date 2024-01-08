@@ -112,7 +112,6 @@ section{
     align-items: center;
     border-radius: 16px;
     margin-bottom: 120px;
-    padding-left: 126px;
 }
 
 
@@ -169,6 +168,7 @@ section{
     align-content: center;
     border-radius: 20px;
     margin-bottom: 120px;
+    background-repeat: no-repeat;
 }
 
 .event-title-place{
@@ -391,10 +391,14 @@ section{
    z-index: 1;
    justify-content: right;
 }
+
+
+
 .discount-pic{
     position: relative;
     z-index: 2;
     padding-left: 200px;
+
     }
 .model-pic{
     position: relative;
