@@ -400,6 +400,17 @@ section{
     z-index: 1;
 }
 
+.call-icon{
+    padding-right: 16px;
+    align-items: center;
+}
+
+.web-icon{
+    padding-right: 16px;
+    align-items: center;
+}
+
+
 
 
 .best-portfolio-description{
@@ -416,9 +427,7 @@ section{
     text-align: center;
 }
 
-.portfolio-content{
-   
-}
+
 
 .content-text{
     text-align: start;
