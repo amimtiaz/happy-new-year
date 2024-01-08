@@ -10,7 +10,7 @@ body{
     height: 100vh;
   
 }
-.header{
+.main{
     margin-left: 250px;
     margin-right: 250px;
     margin-top: 50px;
@@ -369,6 +369,8 @@ section{
     position: relative;
     right: 83px;
 }
+
+
 
 .discount-pic{
     position: relative;
