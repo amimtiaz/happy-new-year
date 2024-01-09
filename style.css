@@ -558,14 +558,12 @@ section{
 }
 
 .box-newsletter{
-    position: absolute;
+    display: flex;
     justify-content: center;
     align-items: center;
     justify-items: center;
     align-content: center;
     margin-top: 48px;
-    margin-left: 200px;
-    
 }
 
 .input{
